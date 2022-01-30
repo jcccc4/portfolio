@@ -1,0 +1,14 @@
+.introduction{
+	background-color: rgb(25, 25, 56);
+	height: 100vh;
+	color: white;
+	font-size:40px;
+
+}
+
+@media only screen and (max-width: 600px) {
+	.introduction{
+		font-size:20px;
+		transition: all 1s ease;
+	}
+}

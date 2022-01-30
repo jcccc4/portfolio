@@ -1,0 +1,57 @@
+.subsectionAlternative{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	height: 750px;
+	margin-bottom: 100px;
+}
+
+.projectCard{
+	 width: 500px;
+	 height: 500px;
+	 box-shadow: 5px 5px 20px rgb(195, 195, 195);
+	 margin: 10px;
+}
+
+.projectContainer{
+	display:flex;
+	justify-content: space-around;
+
+}
+
+.projectCard img{
+	margin: 125px 0 80px 0;
+	height: 100px;
+}
+
+.subtext{
+	font-weight: 300;
+
+}
+
+hr{
+	margin-left:20px;
+	margin-right:20px;
+}
+
+@media only screen and (max-width: 1000px) {
+
+	.projectContainer{
+		flex-direction: column;
+		margin-bottom: 150px;
+		align-items: center;
+	}
+
+	
+}
+
+@media only screen and (max-width: 600px) {
+
+	.projectCard{
+		width: 300px;
+		height: 400px;
+		padding-bottom: 100px;
+	}
+
+	
+}

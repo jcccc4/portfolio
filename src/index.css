@@ -1,0 +1,52 @@
+body{
+	font-family: 'Roboto Mono', monospace;
+    width: 100vw;
+}
+section{
+	height:500px;
+	background-color: white;
+    font-size: 40px;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+
+@media only screen and (max-width: 1000px) {
+    .hamburger {
+        display: block;
+        border: 0;
+        background-color: transparent;
+        color: white;
+        font-size: 30px;
+        margin: 20px;
+        align-self: flex-end;
+    }
+
+    ul {
+        display: none;
+        background-color: #2b2c38;
+        margin: 0ppx;
+        font-size: 100px;
+    }
+
+    ul.show {
+        display: block;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column-reverse;
+        background-color: #2b2c38;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    svg{
+        display: none;
+    }
+}
